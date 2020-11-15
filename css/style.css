@@ -1,0 +1,487 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1088px;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 607px;
+    background-size: 100%;
+    background-image: url("../images/1.png");
+    background-repeat: no-repeat;
+}
+
+.top-menu {
+    width: 100%;
+    height: 70px;
+    border: 2px solid #FFFFFF33;
+    opacity: 1;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slogan {
+    width: 405px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 110px;
+}
+
+.slogan .logo {
+    width: 31px;
+    height: 35px;
+    background: url("../images/10.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.slogan .text1 {
+    font-size: 35px;
+    color: red;
+}
+
+.slogan .text2 {
+    font-size: 35px;
+    color: white;
+}
+
+.nav {
+    width: 486px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 150px;
+    font-size: 16px;
+}
+
+.main-content {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 140px;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+
+.middle-text {
+    width: 930px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.buttons {
+    width: 320px;
+    padding-top: 70px;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 150px;
+    height: 45px;
+    border: 1px solid red;
+    border-radius: 40px;
+    color: white;
+    background: red;
+    text-align: center;
+}
+
+button + button {
+    width: 150px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: red;
+    background: white;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    height: 1550px;
+    background-size: 100%;
+}
+
+.blog-text {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    background: yellow;
+}
+
+.rectangle1 {
+    width: 50px;
+    height: 3px;
+    background: red;
+}
+
+.main-text {
+    width: 95px;
+    height: 47px;
+    padding-right: 0;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    left: 2px;
+    bottom: 5px;
+}
+
+.rectangle2 {
+    width: 50px;
+    height: 3px;
+    background: red;
+}
+
+.blog .container {
+    width: 1088px;
+    height: 350px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background: green;
+}
+
+.blog1 {
+    position: relative;
+    left: 80px;
+}
+
+.logo1 {
+    width: 300px;
+    height: 150px;
+    background: url("../images/2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text1 {
+    font-size: 12px;
+    color: #6A6A6A;
+    margin-top: 10px;
+}
+
+.text1a {
+    font-size: 10px;
+    width: 200px;
+    color: #6A6A6A;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blog1 button {
+    width: 120px;
+    height: 30px;
+    border-radius: 40px;
+    font-size: 10px;
+}
+
+.blog2 {
+    position: relative;
+    left: 20px;
+}
+
+.logo2 {
+    width: 300px;
+    height: 150px;
+    background: url("../images/3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text2 {
+    font-size: 12px;
+    color: #6A6A6A;
+    margin-top: 10px;
+}
+
+.text2a {
+    font-size: 10px;
+    width: 200px;
+    color: #6A6A6A;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blog2 button {
+    width: 120px;
+    height: 30px;
+    border-radius: 40px;
+    font-size: 10px;
+}
+
+.blog3 {
+    position: relative;
+    right: 40px;
+}
+
+.logo3 {
+    width: 300px;
+    height: 150px;
+    background: url("../images/4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text3 {
+    font-size: 12px;
+    color: #6A6A6A;
+    margin-top: 10px;
+}
+
+.text3a {
+    font-size: 10px;
+    width: 200px;
+    color: #6A6A6A;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blog3 button {
+    width: 120px;
+    height: 30px;
+    border-radius: 40px;
+    font-size: 10px;
+}
+
+.service .service-text {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background: pink;
+}
+
+.service-text .rectangle1 {
+    width: 50px;
+    height: 3px;
+    background: red;
+}
+
+.service-text .main-text {
+    width: 95px;
+    height: 47px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    right: 35px;
+    bottom: 5px;
+}
+
+.service-text .rectangle2 {
+    width: 50px;
+    height: 3px;
+    background: red;
+}
+
+.service .container {
+    width: 1088px;
+    height: 350px;
+    padding-top: 10px;
+    border-right: 150px;
+    border-left: 150px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background: lightskyblue;
+}
+
+.service1{
+    position: relative;
+    left: 130px;
+}
+
+.service1 .logo1 {
+    width: 300px;
+    height: 150px;
+    background: url("../images/5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.service1 .text1 {
+    font-size: 12px;
+    color: #6A6A6A;
+    margin-top: 10px;
+}
+
+.service1 .text1a {
+    font-size: 10px;
+    width: 200px;
+    color: #6A6A6A;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service1 button {
+    width: 120px;
+    height: 30px;
+    border-radius: 40px;
+    font-size: 10px;
+}
+
+.service2 {
+    position: relative;
+    left: 100px;
+}
+
+.service2 .logo2 {
+    width: 300px;
+    height: 150px;
+    background: url("../images/6.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.service2 .text2 {
+    font-size: 12px;
+    color: #6A6A6A;
+    margin-top: 10px;
+}
+
+.service2 .text2a {
+    font-size: 10px;
+    width: 200px;
+    color: #6A6A6A;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service2 button {
+    width: 120px;
+    height: 30px;
+    border-radius: 40px;
+    font-size: 10px;
+}
+
+.service3 {
+    position: relative;
+    left: 40px;
+}
+
+.service3 .logo3 {
+    width: 300px;
+    height: 150px;
+    background: url("../images/7.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.service3 .text3 {
+    font-size: 12px;
+    color: #6A6A6A;
+    margin-top: 10px;
+}
+
+.service3 .text3a {
+    font-size: 10px;
+    width: 200px;
+    color: #6A6A6A;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service3 button {
+    width: 120px;
+    height: 30px;
+    border-radius: 40px;
+    font-size: 10px;
+}
+
+.service4 {
+    position: relative;
+}
+
+.service4 .logo4 {
+    width: 300px;
+    height: 150px;
+    background: url("../images/8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.service4 .text4 {
+    font-size: 12px;
+    color: #6A6A6A;
+    margin-top: 10px;
+}
+
+.service4 .text4a {
+    font-size: 10px;
+    width: 200px;
+    color: #6A6A6A;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service4 button {
+    width: 120px;
+    height: 30px;
+    border-radius: 40px;
+    font-size: 10px;
+}
+
+.contact-text {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    background: chartreuse;
+}
+
+.contact-text .rectangle1 {
+    width: 50px;
+    height: 3px;
+    background: red;
+}
+
+.contact-text .main-text {
+    width: 95px;
+    height: 47px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+}
+
+.contact-text .rectangle2 {
+    width: 50px;
+    height: 3px;
+    background: red;
+}
+
