@@ -45,11 +45,13 @@ header {
 .slogan .text1 {
     font-size: 35px;
     color: red;
+    opacity: 100%;
 }
 
 .slogan .text2 {
     font-size: 35px;
     color: white;
+    opacity: 100%;
 }
 
 .nav {
@@ -128,7 +130,7 @@ main {
     display: flex;
     justify-content: center;
     padding-top: 60px;
-    background: yellow;
+    /*background: yellow;*/
 }
 
 .rectangle1 {
@@ -163,7 +165,7 @@ main {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    background: green;
+    /*background: green;*/
 }
 
 .blog1 {
@@ -275,7 +277,7 @@ main {
     display: flex;
     justify-content: center;
     padding: 30px;
-    background: pink;
+    background: #28272C;
 }
 
 .service-text .rectangle1 {
@@ -291,7 +293,7 @@ main {
     padding-left: 20px;
     font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: white;
     position: relative;
     right: 35px;
     bottom: 5px;
@@ -312,7 +314,7 @@ main {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    background: lightskyblue;
+    background: #28272C;
 }
 
 .service1{
@@ -457,7 +459,7 @@ main {
     display: flex;
     justify-content: center;
     padding-top: 60px;
-    background: chartreuse;
+    /*background: chartreuse;*/
 }
 
 .contact-text .rectangle1 {
@@ -485,3 +487,21 @@ main {
     background: red;
 }
 
+.contact .container {
+    width: 1088px;
+    height: 350px;
+    padding-top: 10px;
+    padding-left: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    /*background: lightcoral;*/
+}
+
+.contact1 .logo1 {
+    width: 350px;
+    height: 200px;
+    background: url("../images/9.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
